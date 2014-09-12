@@ -8,38 +8,26 @@
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 400%;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
     color: white;
 }
 
 .splash-container {
-    background: #1f8dd6;
+    background-image: url('../img/main.jpg');
+    background-size: 100%;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
-    height: 88%;
+    height: 100%;
     position: fixed !important;
 }
 
-.splash {
-    height: 50%;
-    margin: auto;
-    position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
-    text-align: center;
-    text-transform: uppercase;
-}
 
-.content-wrapper {
-    /* These styles are required for the "scroll-over" effect */
-    position: absolute;
-    top: 87%;
-    width: 100%;
-    min-height: 12%;
-    z-index: 2;
-    background: white;
-
+.coming-soon{
+    position: fixed; 
+    bottom: 0; 
+    margin-left: 20px;
 }
